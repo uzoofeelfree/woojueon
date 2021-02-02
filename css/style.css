@@ -7,7 +7,7 @@
       font-family: 'Noto Sans', sans-serif;
     }
 
-  a{
+  a {
     color : black;
     text-decoration : none;
   }
@@ -18,22 +18,12 @@
 
     /* mouse over link */
     a:hover {
-       color: #ff5349 ;
+       opacity : 0.5;
     }
 
     /* selected link */
     a:active {
-     color: #ff5349 ;
-     font-weight : 700;
-    }
-
-  ul{
-      list-style:none;
-      width:200px;
-      margin:0;
-      padding: 20px;
-      font-size : 12px;
-      line-height : 1.5;
+     opacity : 0.5 ;
     }
 
   p{
@@ -41,18 +31,75 @@
     line-height : 1.5;
   }
 
+/*
   #grid{
       display: grid;
       grid-template-columns: 200px 1fr;
     }
+
+  #grid ul{
+        list-style:none;
+        width:200px;
+        margin:0;
+        padding: 20px;
+        font-size : 12px;
+        line-height : 1.5;
+      }
+
     #grid #article{
       padding-left : 20px;
       padding-right : 20px;
+    }
+*/
 
-  }
-
-.photo{
-  display : block;
-  width : 300px;
+.menu {
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+  left: 0;
+  right: 0;
 }
 
+.menu ul{
+  list-style:none;
+  width:200px;
+  margin:0;
+  padding: 20px;
+  font-size : 12px;
+  line-height : 1.5;
+}
+
+.article {
+  padding-left : 200px;
+}
+
+      * {
+         box-sizing: border-box;
+      }
+      .outer-grid {
+         display: flex;
+         flex-wrap: wrap;
+         padding: 0 4px;
+      }
+      .inner-grid {
+         flex: 32%;
+         max-width: 32%;
+         padding: 0 4px;
+      }
+      .inner-grid img {
+         margin-top: 8px;
+         width: 100%;
+         padding: 10px;
+      }
+      @media screen and (max-width: 800px) {
+         .inner-grid {
+            flex: 50%;
+            max-width: 50%;
+         }
+      }
+      @media screen and (max-width: 600px) {
+         .inner-grid {
+            flex: 100%;
+            max-width: 100%;
+         }
+      }
