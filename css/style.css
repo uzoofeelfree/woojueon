@@ -6,34 +6,19 @@
       font-family: 'Noto Sans', sans-serif;
     }
 
-  a {
-    color : black;
-    text-decoration : none;
-  }
-
-   a:link {
-      color: black;
-   }
-
+  a { color : black; text-decoration : none; }
+  a:link { color: black; }
     /* mouse over link */
-    a:hover {
-       opacity : 0.5;
-    }
-
+  a:hover { opacity : 0.5; }
     /* selected link */
-    a:active {
-     opacity : 0.5 ;
-    }
+  a:active { opacity : 0.5 ; }
 
 .intro{
   display : flex;
-  padding-left : 20px;
   padding-bottom : 20px;
 }
 
-.intro p{
-  width: 32%;
-}
+.intro p{ width: 32%; }
 
   p{
     font-size : 12px;
@@ -42,7 +27,7 @@
 
 .menu {
   position: fixed;
-  width:200px;
+  width : 250px;
   top: 0;
   left: 0;
   right: 0;
@@ -51,28 +36,26 @@
 .menu ul{
   list-style:none;
   margin:0;
-  padding: 20px;
+  padding: 20px 25px;
   font-size : 12px;
   line-height : 1.5;
 }
 
 .article {
-  padding-left : 220px;
+  padding-left : 250px;
   padding-top : 20px;
 }
 
-      * {
-         box-sizing: border-box;
-      }
+      * { box-sizing: border-box; }
       .outer-grid {
          display: flex;
          flex-wrap: wrap;
-         padding: 0px 10px;
+         padding: 0px;
       }
       .inner-grid {
          flex: 32%;
          max-width: 32%;
-         padding: 0 10px;
+         padding-right: 20px;
       }
       .inner-grid img {
          width: 100%;
