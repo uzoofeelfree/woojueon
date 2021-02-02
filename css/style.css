@@ -25,6 +25,16 @@
      opacity : 0.5 ;
     }
 
+.intro{
+  display : flex;
+  padding-left : 20px;
+  padding-bottom : 20px;
+}
+
+.intro p{
+  width: 32%;
+}
+
   p{
     font-size : 12px;
     line-height : 1.5;
@@ -47,7 +57,8 @@
 }
 
 .article {
-  padding-left : 200px;
+  padding-left : 220px;
+  padding-top : 20px;
 }
 
       * {
@@ -56,18 +67,21 @@
       .outer-grid {
          display: flex;
          flex-wrap: wrap;
-         padding: 0 4px;
+         padding: 0px 10px;
       }
       .inner-grid {
          flex: 32%;
          max-width: 32%;
-         padding: 0 4px;
+         padding: 0 10px;
       }
       .inner-grid img {
-         margin-top: 8px;
          width: 100%;
-         padding: 10px;
       }
+
+      .inner-grid p{
+        margin-bottom : 30px;
+      }
+
       @media screen and (max-width: 800px) {
          .inner-grid {
             flex: 50%;
