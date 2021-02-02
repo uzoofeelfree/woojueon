@@ -31,38 +31,16 @@
     line-height : 1.5;
   }
 
-/*
-  #grid{
-      display: grid;
-      grid-template-columns: 200px 1fr;
-    }
-
-  #grid ul{
-        list-style:none;
-        width:200px;
-        margin:0;
-        padding: 20px;
-        font-size : 12px;
-        line-height : 1.5;
-      }
-
-    #grid #article{
-      padding-left : 20px;
-      padding-right : 20px;
-    }
-*/
-
 .menu {
   position: fixed;
+  width:200px;
   top: 0;
-  /* width: 100% */
   left: 0;
   right: 0;
 }
 
 .menu ul{
   list-style:none;
-  width:200px;
   margin:0;
   padding: 20px;
   font-size : 12px;
