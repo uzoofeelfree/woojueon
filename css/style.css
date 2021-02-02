@@ -3,7 +3,6 @@
 
   body{
       margin:0;
-      padding : 25px;
       font-family: 'Noto Sans', sans-serif;
     }
 
@@ -81,3 +80,11 @@
             max-width: 100%;
          }
       }
+
+.cadre{
+  width : 800px;
+}
+
+.cadre img{
+    max-width: 100%;
+}
