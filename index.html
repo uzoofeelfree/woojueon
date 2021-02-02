@@ -16,8 +16,21 @@
     }
   
     a {
-      color:black;
+      color:gray;
       text-decoration: none;
+    }
+   a:link {
+       color: black;
+   }
+
+    /* mouse over link */
+    a:hover {
+       color: orange;
+    }
+
+    /* selected link */
+    a:active {
+     color: orange;
     }
   
   ul{
@@ -28,6 +41,7 @@
       font-size : 15px;
       line-height : 1.5;
     }
+  
   p{
     font-size : 15px;
   }
@@ -49,7 +63,7 @@
 <body>
   <div id="grid">
     <ul>
-      <li style = "margin-bottom : 30px;"><a href="index.html"><strong>Jueon WOO</strong></a></li>
+      <li style = "margin-bottom : 10px;"><a href="index.html"><strong>Jueon WOO</strong></a></li>
       <li><a href="Papillon">Un Papillon Vole</a></li>
       <li><a href="Dictionnaire">Dictionnaires sans femmes</a></li>
       <li><a href="Nonreal">Nonreal Estate</a></li>
