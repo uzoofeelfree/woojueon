@@ -7,13 +7,10 @@
       font-family: 'Noto Sans', sans-serif;
     }
 
-    a {
-      color:black;
-      text-decoration: none;
-    }
    a:link {
        color: black;
      font-weight : 700;
+      text-decoration: none;
    }
 
     /* mouse over link */
@@ -49,3 +46,8 @@
       padding-right : 20px;
 
   }
+
+.photo{
+  display : block;
+}
+
