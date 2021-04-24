@@ -62,7 +62,9 @@
       }
 
       .inner-grid p{
-        margin-bottom : 30px;
+        margin-bottom : 55px;
+        line-height : 0.5;
+
       }
 
       @media screen and (max-width: 800px) {
@@ -85,4 +87,12 @@
 .cadre img{
     max-width: 100%;
     margin-bottom : 25px;
+}
+
+.footer {
+   color : lightgray;
+   width: 100%;
+   text-align: center;
+   padding-top : 20px;
+   padding-bottom : 20px;
 }
