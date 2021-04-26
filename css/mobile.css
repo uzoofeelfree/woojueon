@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
   body{
-      margin:0;
+    padding : 2%;
+
+      margin: 0;
       font-family: 'Noto Sans', sans-serif;
     }
 
@@ -11,7 +13,6 @@
       color : lightgray;
       text-align : right;
     }
-
 
   a { color : black; text-decoration : none; }
   a:link { color: black; }
@@ -23,22 +24,31 @@
 .intro{
   display : flex;
   padding-bottom : 20px;
-  text-align : left;
 }
 
-.intro p{ width: 32%; }
+.intro p{ width: 32%;
+  font-size : 30px;
+}
 
   p{
-    font-size : 12px;
+    font-size : 15px;
     line-height : 1.5;
   }
 
+  .mobile_menu{
+    display : flex;
+  }
+
+  .mobile_menu p{ width: 30%; }
+
+
 .menu {
   position: fixed;
-  width : 250px;
+  width : 0px;
   top: 0;
   left: 0;
   right: 0;
+  visibility : hidden;
 }
 
 .menu ul{
@@ -50,7 +60,7 @@
 }
 
 .article {
-  padding-left : 250px;
+  padding-left : 5px;
   padding-top : 20px;
 }
 
@@ -61,33 +71,19 @@
          padding: 0px;
       }
       .inner-grid {
-         flex: 32%;
-         max-width: 32%;
-         padding-right: 20px;
+         flex: 100%;
+         max-width: 100%;
       }
       .inner-grid img {
          width: 100%;
       }
 
       .inner-grid p{
-        font-size : 12px;
-        margin-bottom : 55px;
-        line-height : 0.5;
-
+        font-size : 13px;
+        margin-bottom : 120px;
+        line-height : 0.8;
       }
 
-      @media screen and (max-width: 800px) {
-         .inner-grid {
-            flex: 50%;
-            max-width: 50%;
-         }
-      }
-      @media screen and (max-width: 600px) {
-         .inner-grid {
-            flex: 100%;
-            max-width: 100%;
-         }
-      }
 
 .cadre{
   width : 90%;
