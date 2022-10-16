@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Woojueon</title>
+<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+<link rel="stylesheet" type="text/css" href="./css/mobile.css"
+media = "screen and (min-device-width:0px) and (max-device-width:767px)"/>
+
+<meta charset = "utf-8">
+<link rel="icon" href=".img/favicon.png" sizes="64x64">
+<link rel="icon" href=".img/favicon32.png" sizes="32x32">
+<link rel="icon" href=".img/favicon16.png" sizes="16x16">
+<meta name = "description" content="WooJuEon">
+</head>
+
+<body>
+  <div class = "menu">
+    <ul>
+      <li style = "margin-bottom : 30px; opacity : 0.5;">
+        <a href="index"><h3>Index</h3></a></li>
+      <li style = "opacity : 0.5;"><a href="Solar">Solar System</a></li>
+      <li><a href="Papillon">Un Papillon Vole</a></li>
+      <li><a href="Google">Google whisper</a></li>
+      <li><a href="Sous">Sous la table !</a></li>
+      <li><a href="Nonreal">Nonreal Estate</a></li>
+      <li><a href="Sisters">Little Sisters Language Creation Club</a></li>
+      <li><a href="Confinement">Confinement</a></li>
+      <li><a href="Invisibilite">Invisibilité</a></li>
+      <li><a href="Hongje">Hongjestreamwomensgymnastics</a></li>
+      <li><a href="Stretch">Stretch, girls!</a></li>
+      <li><a href="3voix1">3 voix (performance)</a></li>
+      <li><a href="3voix2">3 voix (recorder)</a></li>
+      <li><a href="Tour">La Tour Chancelante</a></li>
+      <li><a href="Dictionnaire">Dictionnaires sans femmes</a></li>
+      <li><a href="Night">Night Portrait</a></li>
+      <li><a href="Replicant">Replicant</a></li>
+      <li><a href="Amour">Amour Public</a></li>
+      <li><a href="Drama">I love Korean Dramas</a></li>
+
+      <li style = "opacity : 0.5; margin-top : 15px;">
+        <a href="CV">CV</a></li>
+      <li style = "opacity : 0.5;">
+        <a href= "Contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="article">
+
+      <div class = "intro">
+        <p><strong>Solar System 쏠라 시스템 (2021)</strong></p>
+        <p></p>
+        <p>Documentary Film</p>
+      </div>
+      <div class = "cadre">
+
+        <img src = "./img/studio01.jpg">
+        <img src = "./img/studio02.jpg">
+        <img src = "./img/studio03.jpg">
+
+        <p>
+          나는 속삭인다는 뜻의 영단어 'Murmur'와 머뭇거리는 형상 또는 우물거리며 입안에 삼키는 소리를 연상시키는 단어 '머물거리다'라는 단어를 합쳐 '머물거리는 몸' 이라는 개념을 만들었다.
+          머물거리는 몸은 클레이 인간처럼 흐물흐물하고 전문 무용수처럼 멋있는 움직임도 만들어내지 못하지만, 속삭이는 목소리처럼 작은 제스쳐들들에서부터 시작해
+          자신의 몸의 습관과 역사의 흔적드를 발견하고 치유해나가는 주체적인 몸이다.
+          이 움직임에는 밖의 관음 주체가 있지 않으며, 내면의 중심의시선에 이끌려 간다.
+          그리고 나와 같이 불완전한 몸들과 연대하고 공감하며 다 다르지만 하나가 된 몸을 형성하기도 한다. 속삭임이 모여 커다란 울림을 만든다.
+        </p>
+
+      </div>
+
+              <div class="fin_nav">
+                <p><a href="Drama">< Previous</a></p>
+                <p><a href="Papillon">Next ></a></p>
+                <p style = "text-align : right;"><a href="index">Home</a></p>
+              </div>
+
+</div>
+  </body>
+
+  <footer>
+      <p>Copyright 2020-2021 by Jueon Woo</br>
+      All Rights Reserved</br></p>
+  </footer>
+
+</html>
